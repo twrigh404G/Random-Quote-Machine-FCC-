@@ -1,12 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react"
+import QuoteMachine from './QuoteMachine'
 
-function App() {
-  return (
-    <div className="App">
-      
-    </div>
-  );
+class App extends React.Component {
+  constructor(props){
+    super(props);
+    this.state = {
+
+    };
+  }
+  
+  render(){
+    return <h1>hello</h1>
+  }
 }
 
 export default App;
+
